@@ -15,7 +15,7 @@ class Solution(object):
         }
 
         total = 0
-        length = len(s)
+       prev = len(s)
 
         for i in range(length):
             current_value = roman_map[s[i]]
