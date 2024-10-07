@@ -13,8 +13,7 @@ class Solution(object):
 
     total = 0
     prev_value = 0
-    
-    # Traverse the Roman numeral from right to left
+  
     for char in reversed(s):
         current_value = roman_map[char]
         
