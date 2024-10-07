@@ -1,6 +1,6 @@
 class Solution(object):
    def romanToInt(s: str) -> int:
-    # Dictionary to store the Roman numeral symbols and their values
+
     roman_map = {
         'I': 1,
         'V': 5,
