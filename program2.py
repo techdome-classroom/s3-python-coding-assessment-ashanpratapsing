@@ -18,7 +18,7 @@ class Solution(object):
        prev_value = 0
 
         for char  in reversed(s):
-            current_value = roman_map[s[i]]
+            current_value = roman_map[char]
 
             # If next value exists and is larger, subtract the current value
             if i + 1 < length and roman_map[s[i + 1]] > current_value:
