@@ -17,7 +17,7 @@ class Solution(object):
         total = 0
        prev_value = 0
 
-        for i in range(length):
+        for char  in range(length):
             current_value = roman_map[s[i]]
 
             # If next value exists and is larger, subtract the current value
